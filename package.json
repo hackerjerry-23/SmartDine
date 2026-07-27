@@ -5,6 +5,6 @@
     "dev": "npm run dev:server",
     "dev:server": "npm --prefix smartdine-ai/server run dev",
     "dev:client": "npm --prefix smartdine-ai/client run dev",
-    "start": "npm run dev:server"
+    "start": "npm --prefix smartdine-ai/server start"
   }
 }
