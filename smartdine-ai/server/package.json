@@ -1,0 +1,28 @@
+{
+  "name": "smartdine-ai-server",
+  "version": "1.0.0",
+  "description": "SmartDine AI - Backend API (Node.js + Express + MongoDB)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node utils/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "google-auth-library": "^9.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "socket.io": "^4.7.5",
+    "@google/genai": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

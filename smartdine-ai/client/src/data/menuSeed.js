@@ -1,0 +1,122 @@
+export const menuSeed = [
+  {
+    _id: 'm1',
+    name: 'Paneer Tikka',
+    category: 'Starters',
+    description: 'Smoky grilled cottage cheese with mint chutney.',
+    price: 240,
+    rating: 4.8,
+    prepTime: '15 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm2',
+    name: 'Chicken Biryani',
+    category: 'Biryani',
+    description: 'Fragrant basmati rice layered with spiced chicken.',
+    price: 320,
+    rating: 4.9,
+    prepTime: '25 min',
+    isVeg: false,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm3',
+    name: 'Margherita Pizza',
+    category: 'Pizza',
+    description: 'Classic wood-fired pizza with mozzarella and basil.',
+    price: 280,
+    rating: 4.7,
+    prepTime: '20 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm4',
+    name: 'Chicken Burger',
+    category: 'Burger',
+    description: 'Crispy chicken patty with lettuce, cheese and sauce.',
+    price: 260,
+    rating: 4.6,
+    prepTime: '12 min',
+    isVeg: false,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm5',
+    name: 'Veg Fried Rice',
+    category: 'Chinese',
+    description: 'Wok-tossed rice with vegetables and rich spices.',
+    price: 220,
+    rating: 4.5,
+    prepTime: '15 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm6',
+    name: 'Masala Dosa',
+    category: 'South Indian',
+    description: 'Golden crisp dosa served with sambar and chutney.',
+    price: 180,
+    rating: 4.8,
+    prepTime: '10 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm7',
+    name: 'Butter Chicken',
+    category: 'Main Course',
+    description: 'Creamy tomato-based chicken curry with buttery richness.',
+    price: 340,
+    rating: 4.9,
+    prepTime: '22 min',
+    isVeg: false,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm8',
+    name: 'Gulab Jamun',
+    category: 'Desserts',
+    description: 'Soft milk-solid dumplings soaked in saffron syrup.',
+    price: 140,
+    rating: 4.7,
+    prepTime: '8 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm9',
+    name: 'Mango Smoothie',
+    category: 'Beverages',
+    description: 'Refreshing mango blend with a hint of cardamom.',
+    price: 160,
+    rating: 4.6,
+    prepTime: '5 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1573781445488-8d6f9d2c0d53?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    _id: 'm10',
+    name: 'Dal Makhani',
+    category: 'Main Course',
+    description: 'Slow-cooked black lentils with creamy spices.',
+    price: 260,
+    rating: 4.8,
+    prepTime: '20 min',
+    isVeg: true,
+    isAvailable: true,
+    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80'
+  }
+];
